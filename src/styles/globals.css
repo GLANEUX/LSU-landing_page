@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --darkTheme: #010C13;
+  --redTheme: #7A1524;
+  --orangeTheme: #DD6031;
+  --lightTheme: #FEF5EB;
+  --blackTheme: black;
+  --whiteTheme: white;
+  --Inputblack: #1F1F1F;
+  --font-josefin-sans: "Josefin Sans", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+}
+
+*{
+  font-family: var(--font-poppins);
+}
+.border-gradient{
+    background: linear-gradient(var(--Inputblack), var(--Inputblack)) padding-box, linear-gradient(to right, var(--orangeTheme), var(--redTheme)) border-box;
+    border: 4px solid transparent;
+}
